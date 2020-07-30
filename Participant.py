@@ -14,7 +14,7 @@ class Coder:
             print("there is a mistake in my role")
 
     def backend(self):
-        pass
+        print("i dont know what to do")
 
 
 if __name__ == "__main__":
@@ -23,4 +23,5 @@ if __name__ == "__main__":
     student3 = Coder("Shubham", 50, "frontend")
     student4 = Coder("Shubham", 50, "frontend")
     student1.frontend()
+    student2.backend()
 
